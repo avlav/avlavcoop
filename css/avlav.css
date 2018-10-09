@@ -1,0 +1,96 @@
+a, a:active, a:visited {
+  color: #5e5e5e;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+
+}
+body{
+background-color: #000000;
+
+}
+div {
+  width: 100%;
+  height: auto;
+
+}
+img {
+    width: 100%;
+    height: auto;
+
+}
+li{
+  display: inline;
+  margin: 10px 10px 10px 10px;
+  align-items: center;
+  font-size: 18px;
+
+}
+ul{
+  display: flex;
+    justify-content: center;
+
+}
+section{
+  width: auto;
+  height: 800px;
+  background: linear-gradient(#000000,#5e5e5e);
+  margin: 20px;
+  color: #ffffff;
+
+}
+#totop {
+  font-size: 1.5em;
+  text-align: center;
+
+}
+input, textarea {
+  font-size: 1em;
+  color: #222;
+  font-weight: 300;
+  width: 100%;
+  border: none;
+  height: auto;
+  padding: 15px;
+  outline: 0;
+  margin-bottom: 1.2em;
+  border-radius: .3em;
+  border-bottom: 3px solid rgba(0,0,0, 0.05);
+  background-color: #e8eeef;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+
+}
+label {
+  display: block;
+  margin-bottom: 0.5em;
+
+}
+.hoja_contacto {
+ max-width: 500px;
+ margin: auto;
+
+}
+button[type="submit"] {
+  cursor: pointer;
+  font-size: .875em;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+  opacity: .75;
+}
+form h1 {
+  color: #ffffff;
+  align-self: center;
+
+}
+h1 ~ label {
+  color: #ffffff;
+  margin: 0 auto;
+
+}
