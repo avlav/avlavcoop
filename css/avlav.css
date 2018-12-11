@@ -1,3 +1,10 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
 .Titulo {
   animation-name: boom;
   animation-duration: 4s;
@@ -58,10 +65,7 @@ a:hover {
 a h1 {
   margin: 0px 2px;
 }
-body{
-background-color: #000000;
 
-}
 div {
   width: 100%;
   height: auto;
@@ -72,14 +76,7 @@ img {
     height: auto;
 
 }
-section{
-  width: auto;
-  height: 800px;
-  background: linear-gradient(#000000,#5e5e5e);
-  margin: 20px;
-  color: #ffffff;
 
-}
 #totop {
   font-size: 1.5em;
   text-align: center;
@@ -148,3 +145,62 @@ text-align: center;
   border-radius: 50px;
 
 }
+.parallaxFondo, .parallaxFondo1,.parallaxFondo2, .parallaxFondo3,.parallaxFondo4, .parallaxFondo5, .parallaxFondo6{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallaxFondo{
+
+  background-image:url(https://picsum.photos/800/1080);
+
+    min-height: 100%;
+  }
+
+  .parallaxFondo1{
+    background-image: url(https://picsum.photos/800/800);
+    min-height: 400px;
+  }
+  .parallaxFondo2{
+    background-image: url(https://picsum.photos/800/1020);
+    min-height: 400px;
+  }
+.parallaxFondo3{
+  background-image: url(https://picsum.photos/800/1040);
+  min-height: 400px;
+}
+.parallaxFondo4{
+  background-image: url(https://picsum.photos/810/1020);
+  min-height: 400px;
+}
+.parallaxFondo5{
+  background-image: url(https://picsum.photos/810/1015);
+  min-height: 400px;
+}
+.parallaxFondo6{
+  background-image: url(https://picsum.photos/830/1015);
+  min-height: 400px;
+}
+.Mensaje {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.Mensaje span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+@media only screen and (max-device-width: 1024px) {
+    .parallaxFondo, .parallaxFondo1,.parallaxFondo2, .parallaxFondo4, .parallaxFondo5, .parallaxFondo6{
+        background-attachment: scroll;
+    }
